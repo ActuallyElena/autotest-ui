@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/playwright_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright_courses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playwright_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright_registration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_authorization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
