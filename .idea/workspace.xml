@@ -5,18 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45a47479-3ba8-41d6-92ec-79b0ae2a6bc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/course_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/views/empty_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/views/image_upload_widget_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authentication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authentication/login_form_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authentication/registration_form_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/charts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/charts/chart_view_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/courses/create_course_form_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/dashboard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/browser-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/browser-state.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/courses_list_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/courses_list_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/create_course_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/create_course_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashboard_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registration_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_authorization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
