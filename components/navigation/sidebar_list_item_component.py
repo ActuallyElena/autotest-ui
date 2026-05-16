@@ -1,26 +1,32 @@
 from typing import Pattern
-
-from playwright.sync_api import Page, expect
-
+from playwright.sync_api import Page
 from components.base_component import BaseComponent
-
+from elements.icon import Icon
+from elements.button import Button
+from elements.text import Text
 
 class SidebarListItemComponent(BaseComponent):
     def __init__(self, page: Page, identifier: str):
         super().__init__(page)
 
-        self.icon = page.get_by_test_id(f'{identifier}-drawer-list-item-icon')
-        self.title = page.get_by_test_id(f'{identifier}-drawer-list-item-title-text')
-        self.button = page.get_by_test_id(f'{identifier}-drawer-list-item-button')
+        self.identifier= identifier
 
-    def check_visible(self, title: str):
-        expect(self.icon).to_be_visible()
+        self.icon = Icon(
+            page, '{identifier}-drawer-list-item-icon', 'Sidebar Icon'
+        )
+        self.title = Text(
+            page, '{identifier}-drawer-list-item-title-text', 'Sidebar Title'
+        )
+        self.button = Button(
+            page, '{identifier}-drawer-list-item-button', 'Sidebar Button'
+        )
 
-        expect(self.title).to_be_visible()
-        expect(self.title).to_have_text(title)
-
-        expect(self.button).to_be_visible()
+    def check_visible(self):
+        self.icon.check_visible(identifier=self.identifier)
+        self.title.check_visible(identifier=self.identifier)
+        self.button.check_visible(identifier=self.identifier)
 
     def navigate(self, expected_url: Pattern[str]):
         self.button.click()
-        self.check_current_url(expected_url)
+        self.page.wait_for_url(expected_url)
+
