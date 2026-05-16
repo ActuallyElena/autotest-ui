@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45a47479-3ba8-41d6-92ec-79b0ae2a6bc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/elements/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/base_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/file_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/icon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/link.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/textarea.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/browser-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/browser-state.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/authentication/login_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/authentication/login_form_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/authentication/registration_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/authentication/registration_form_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/courses/create_course_exercise_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_exercise_form_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navigation/navbar_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navbar_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navigation/sidebar_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/sidebar_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/views/empty_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/views/empty_view_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/views/image_upload_widget_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/views/image_upload_widget_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registration_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/charts/chart_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/charts/chart_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/course_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/course_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/base_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/base_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/file_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/file_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/textarea.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/textarea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_dashboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,5 +128,15 @@
       <updated>1777705190614</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/elements/base_element.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
