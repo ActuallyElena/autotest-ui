@@ -1,17 +1,29 @@
-from playwright.sync_api import Page, expect
+from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
 
+from elements.input import Input
+from elements.textarea import Textarea
 
 class CreateCourseFormComponent(BaseComponent):
     def __init__(self, page: Page):
         super().__init__(page)
 
-        self.title_input = page.get_by_test_id('create-course-form-title-input').locator('input')
-        self.estimated_time_input = (page.get_by_test_id('create-course-form-estimated-time-input').locator('input'))
-        self.description_textarea = (page.get_by_test_id('create-course-form-description-input').locator('textarea')).first
-        self.max_score_input = page.get_by_test_id('create-course-form-max-score-input').locator('input')
-        self.min_score_input = page.get_by_test_id('create-course-form-min-score-input').locator('input')
+        self.title_input = Input(
+            page, 'create-course-form-title-input', 'Title Input'
+        )
+        self.estimated_time_input = Input(
+            page, 'create-course-form-estimated-time-input', 'Estimated Time Input'
+        )
+        self.description_textarea = Textarea(
+            page, 'create-course-form-description-input', 'Description'
+        )
+        self.max_score_input = Input(
+            page, 'create-course-form-max-score-input', 'Max Score Input'
+        )
+        self.min_score_input = Input(
+            page, 'create-course-form-min-score-input', 'Min Score Input'
+        )
 
     def fill(
             self,
@@ -28,9 +40,9 @@ class CreateCourseFormComponent(BaseComponent):
         self.min_score_input.fill(min_score)
 
     def check_visible(self):
-        expect(self.title_input).to_be_visible()
-        expect(self.estimated_time_input).to_be_visible()
-        expect(self.description_textarea).to_be_visible()
-        expect(self.max_score_input).to_be_visible()
-        expect(self.min_score_input).to_be_visible()
+        self.title_input.check_visible()
+        self.estimated_time_input.check_visible()
+        self.description_textarea.check_visible()
+        self.max_score_input.check_visible()
+        self.min_score_input.check_visible()
 

@@ -7,15 +7,11 @@
     <list default="true" id="45a47479-3ba8-41d6-92ec-79b0ae2a6bc6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/browser-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/browser-state.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/charts/chart_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/charts/chart_view_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/courses/course_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/course_view_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/base_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/base_element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/button.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/file_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/file_input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/textarea.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/textarea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
