@@ -5,13 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45a47479-3ba8-41d6-92ec-79b0ae2a6bc6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/authentication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/courses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dashboard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/authentication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/courses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pytest/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/browser-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/browser-state.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/courses/create_course_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_form_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/browsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/browsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/courses_list_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/courses/courses_list_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/create_course_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/courses/create_course_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashboard_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard/dashboard_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/authentication/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/authentication/registration_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright_courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/courses/test_courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dashboard/test_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_markers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_parametrization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_parametrization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest_skip.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest_skip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest_skipif.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest_skipif.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest_xfail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest_xfail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_usefixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_usefixtures.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +80,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\autotests_ui\testdata\files" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\autotests_ui\tests\pytest" />
+      <recent name="C:\Users\User\PycharmProjects\autotests_ui\tests\authentification" />
+      <recent name="C:\Users\User\PycharmProjects\autotests_ui\tests\dashboard" />
+      <recent name="C:\Users\User\PycharmProjects\autotests_ui\tests\courses" />
+      <recent name="C:\Users\User\PycharmProjects\autotests_ui\pages\authentification" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.playwright_registration">
     <configuration name="playwright_registration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -92,7 +126,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_pytest.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\autotests_ui\tests\pytest\test_pytest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />

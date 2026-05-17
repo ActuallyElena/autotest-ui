@@ -13,7 +13,7 @@ class CoursesListToolbarViewComponent(BaseComponent):
         super().__init__(page)
 
         self.title = Text(
-            page, 'courses-list-toolbar-title-text', 'Courses List Title'
+            page, 'courses-list-toolbar-title-text', 'courses List Title'
         )
         self.create_course_button = Button(
             page, 'courses-list-toolbar-create-course-button', 'Create Course Button'

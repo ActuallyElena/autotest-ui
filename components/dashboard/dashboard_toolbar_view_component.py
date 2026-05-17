@@ -9,7 +9,7 @@ class DashboardToolbarViewComponent(BaseComponent):
     def __init__(self, page: Page):
         super().__init__(page)
 
-        self.dashboard_title = Text(page, 'dashboard-toolbar-title-text', 'Dashboard')
+        self.dashboard_title = Text(page, 'dashboard-toolbar-title-text', 'dashboard')
 
     def check_visible(self):
         self.dashboard_title.check_visible()

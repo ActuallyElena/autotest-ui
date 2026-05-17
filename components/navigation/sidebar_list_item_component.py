@@ -27,6 +27,6 @@ class SidebarListItemComponent(BaseComponent):
         self.button.check_visible(identifier=self.identifier)
 
     def navigate(self, expected_url: Pattern[str]):
-        self.button.click()
+        self.button.click(identifier=self.identifier)
         self.page.wait_for_url(expected_url)
 
