@@ -69,6 +69,7 @@ class TestAuthorization:
 
         registration_page.registration_form.check_visible(email="", username="", password="")
 
+    @pytest.mark.xdist_group(name="authorization-group")
     @pytest.mark.parametrize(
         "email, password",
         [
