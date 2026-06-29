@@ -42,7 +42,7 @@ jobs:
         run: |
           mkdir -p allure-results
           set +e
-          pytest -m regression --alluredir=allure-results --numprocesses 2
+          pytest -m regression --alluredir=allure-results -v
           TEST_EXIT_CODE=$?
           echo "$TEST_EXIT_CODE" > pytest_exit_code.txt
           exit 0
